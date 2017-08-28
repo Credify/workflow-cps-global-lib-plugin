@@ -88,7 +88,7 @@ public class SCMSourceRetriever extends LibraryRetriever {
         // Adapted from CpsScmFlowDefinition:
         SCMStep delegate = new GenericSCMStep(scm);
         delegate.setPoll(false); // TODO we have no API for determining if a given SCMHead is branch-like or tag-like; would we want to turn on polling if the former?
-        delegate.setChangelog(true); // TODO is this desirable?
+        delegate.setChangelog(false);
         FilePath dir;
         Node node = Jenkins.getActiveInstance();
         if (run.getParent() instanceof TopLevelItem) {
