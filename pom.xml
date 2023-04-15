@@ -123,7 +123,7 @@
         <dependency>
             <groupId>org.jenkins-ci.plugins.workflow</groupId>
             <artifactId>workflow-support</artifactId>
-            <version>2.14</version>
+            <version>839.v35e2736cfd5c</version>
             <classifier>tests</classifier>
             <scope>test</scope>
         </dependency>
