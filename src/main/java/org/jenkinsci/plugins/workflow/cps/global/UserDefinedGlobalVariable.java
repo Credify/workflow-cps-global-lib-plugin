@@ -7,8 +7,8 @@ import org.jenkinsci.plugins.workflow.cps.CpsScript;
 import org.jenkinsci.plugins.workflow.cps.CpsThread;
 import org.jenkinsci.plugins.workflow.cps.GlobalVariable;
 
-import javax.annotation.CheckForNull;
-import javax.annotation.Nonnull;
+import jakarta.annotation.CheckForNull;
+import jakarta.annotation.Nonnull;
 import java.io.File;
 import java.io.IOException;
 import jenkins.model.Jenkins;

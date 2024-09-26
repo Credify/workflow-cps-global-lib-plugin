@@ -28,7 +28,7 @@ import groovy.lang.GroovyShell;
 import hudson.ExtensionPoint;
 import java.net.URL;
 import java.util.List;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.jenkinsci.plugins.workflow.cps.CpsFlowExecution;
 
 /**

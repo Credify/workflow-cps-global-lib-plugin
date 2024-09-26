@@ -45,7 +45,7 @@ import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import jenkins.model.Jenkins;
 import jenkins.scm.api.SCMRevision;
 import jenkins.scm.api.SCMSource;

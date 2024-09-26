@@ -31,7 +31,7 @@ import hudson.model.AbstractDescribableImpl;
 import hudson.model.Run;
 import hudson.model.TaskListener;
 import hudson.util.FormValidation;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 
 /**
  * A way in which a library can be physically obtained for use in a build.

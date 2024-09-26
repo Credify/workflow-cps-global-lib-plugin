@@ -30,7 +30,7 @@ import hudson.model.Job;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Map;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.kohsuke.stapler.StaplerRequest;
 
 /**

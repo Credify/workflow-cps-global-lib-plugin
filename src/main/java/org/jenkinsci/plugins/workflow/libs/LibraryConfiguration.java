@@ -34,8 +34,8 @@ import hudson.model.DescriptorVisibilityFilter;
 import hudson.model.Item;
 import hudson.util.FormValidation;
 import java.util.Collection;
-import javax.annotation.CheckForNull;
-import javax.annotation.Nonnull;
+import jakarta.annotation.CheckForNull;
+import jakarta.annotation.Nonnull;
 import jenkins.model.Jenkins;
 import org.kohsuke.accmod.Restricted;
 import org.kohsuke.accmod.restrictions.NoExternalUse;
@@ -79,7 +79,7 @@ public class LibraryConfiguration extends AbstractDescribableImpl<LibraryConfigu
     public String getDefaultVersion() {
         return defaultVersion;
     }
-    
+
     @DataBoundSetter public void setDefaultVersion(String defaultVersion) {
         this.defaultVersion = Util.fixEmpty(defaultVersion);
     }
