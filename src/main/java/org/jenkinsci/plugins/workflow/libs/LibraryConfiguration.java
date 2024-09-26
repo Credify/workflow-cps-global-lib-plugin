@@ -34,7 +34,6 @@ import hudson.model.DescriptorVisibilityFilter;
 import hudson.model.Item;
 import hudson.util.FormValidation;
 import java.util.Collection;
-import jakarta.annotation.CheckForNull;
 import jakarta.annotation.Nonnull;
 import jenkins.model.Jenkins;
 import org.kohsuke.accmod.Restricted;
